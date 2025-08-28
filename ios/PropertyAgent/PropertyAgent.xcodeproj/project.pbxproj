@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+
+archiveVersion = 1;
+classes = {
+};
+objectVersion = 60;
+objects = {
+/* Begin PBXBuildFile section */
+82B99CC2564A494BB0149053 /* PropertyAgentApp.swift in Sources */ = {
+isa = PBXBuildFile;
+ fileRef = FC2F07AF05D3418D9E3CD51E /* PropertyAgentApp.swift */;
+ };
+FE54C32B306A467F944476BB /* ContentView.swift in Sources */ = {
+isa = PBXBuildFile;
+ fileRef = 8EBD82132CBB41D984E5E535 /* ContentView.swift */;
+ };
+70ADA35527814F76ADD6BE63 /* ChatModels.swift in Sources */ = {
+isa = PBXBuildFile;
+ fileRef = D564A7F45B7940FFB2D68A67 /* ChatModels.swift */;
+ };
+F40206BECBB142758399DAC8 /* APIClient.swift in Sources */ = {
+isa = PBXBuildFile;
+ fileRef = 07A5EEB3BE35459E8BEA9A91 /* APIClient.swift */;
+ };
+BDCCAABCDEE7480CA477C624 /* Assets.xcassets in Resources */ = {
+isa = PBXBuildFile;
+ fileRef = 78A3B848012741CB95004FF3 /* Assets.xcassets */;
+ };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+FC2F07AF05D3418D9E3CD51E /* PropertyAgentApp.swift */ = {
+isa = PBXFileReference;
+ lastKnownFileType = sourcecode.swift;
+ path = PropertyAgentApp.swift;
+ sourceTree = "<group>";
+ };
+8EBD82132CBB41D984E5E535 /* ContentView.swift */ = {
+isa = PBXFileReference;
+ lastKnownFileType = sourcecode.swift;
+ path = ContentView.swift;
+ sourceTree = "<group>";
+ };
+D564A7F45B7940FFB2D68A67 /* ChatModels.swift */ = {
+isa = PBXFileReference;
+ lastKnownFileType = sourcecode.swift;
+ path = Models/ChatModels.swift;
+ sourceTree = "<group>";
+ };
+07A5EEB3BE35459E8BEA9A91 /* APIClient.swift */ = {
+isa = PBXFileReference;
+ lastKnownFileType = sourcecode.swift;
+ path = Services/APIClient.swift;
+ sourceTree = "<group>";
+ };
+78A3B848012741CB95004FF3 /* Assets.xcassets */ = {
+isa = PBXFileReference;
+ lastKnownFileType = folder.assetcatalog;
+ path = Assets.xcassets;
+ sourceTree = "<group>";
+ };
+44B76DC7C85A4A2BAD3CF9F8 /* PropertyAgent.entitlements */ = {
+isa = PBXFileReference;
+ lastKnownFileType = text.plist.entitlements;
+ path = PropertyAgent.entitlements;
+ sourceTree = "<group>";
+ };
+30336780BC7740DEB75C0426 /* PropertyAgent.app */ = {
+isa = PBXFileReference;
+ explicitFileType = wrapper.application;
+ includeInIndex = 0;
+ path = PropertyAgent.app;
+ sourceTree = BUILT_PRODUCTS_DIR;
+ };
+/* End PBXFileReference section */
+/* Begin PBXGroup section */
+A73467FF5E774B71B23F8832 /* PropertyAgent */ = {
+isa = PBXGroup;
+children = (FC2F07AF05D3418D9E3CD51E /* PropertyAgentApp.swift */
+,8EBD82132CBB41D984E5E535 /* ContentView.swift */
+,D564A7F45B7940FFB2D68A67 /* ChatModels.swift */
+,07A5EEB3BE35459E8BEA9A91 /* APIClient.swift */
+,78A3B848012741CB95004FF3 /* Assets.xcassets */
+,44B76DC7C85A4A2BAD3CF9F8 /* PropertyAgent.entitlements */
+,);
+path = PropertyAgent;
+sourceTree = "<group>";
+};
+BD1FECF30FEF43DC859CCC05 /* Products */ = {
+isa = PBXGroup;
+children = (30336780BC7740DEB75C0426 /* PropertyAgent.app */
+,);
+name = Products;
+sourceTree = "<group>";
+};
+1F9341665D8A465EBF32C204 = {
+isa = PBXGroup;
+children = (A73467FF5E774B71B23F8832 /* PropertyAgent */
+,BD1FECF30FEF43DC859CCC05 /* Products */
+,);
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+/* Begin PBXFrameworksBuildPhase section */
+94717F78E51D4513AD9ADC5C /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = ();
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXNativeTarget section */
+8BEA77FCE5134F36B5C53A89 /* PropertyAgent */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = D251734B073A4054893F5FF9 /* Build configuration list for PBXNativeTarget "PropertyAgent" */;
+buildPhases = (9295BAFCE4104E87A078BC91 /* Sources */
+,94717F78E51D4513AD9ADC5C /* Frameworks */
+,DF03E3C6BADB4B5ABA9C160F /* Resources */
+,);
+buildRules = ();
+dependencies = ();
+name = PropertyAgent;
+productName = PropertyAgent;
+productReference = 30336780BC7740DEB75C0426 /* PropertyAgent.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+4B4079C027A045969E0D2D91 /* Project object */ = {
+isa = PBXProject;
+buildConfigurationList = B83AA61AB37E40F1B23BFD39 /* Build configuration list for PBXProject "PropertyAgent" */;
+compatibilityVersion = "Xcode 15.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+mainGroup = 1F9341665D8A465EBF32C204;
+productRefGroup = BD1FECF30FEF43DC859CCC05 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (8BEA77FCE5134F36B5C53A89 /* PropertyAgent */
+,);
+};
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+DF03E3C6BADB4B5ABA9C160F /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (BDCCAABCDEE7480CA477C624 /* Assets.xcassets in Resources */
+,);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+9295BAFCE4104E87A078BC91 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (82B99CC2564A494BB0149053 /* PropertyAgentApp.swift in Sources */
+,FE54C32B306A467F944476BB /* ContentView.swift in Sources */
+,70ADA35527814F76ADD6BE63 /* ChatModels.swift in Sources */
+,F40206BECBB142758399DAC8 /* APIClient.swift in Sources */
+,);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+5C7CE7D78DE845F2B14FDC97 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CODE_SIGN_STYLE = Automatic;
+};
+name = Debug;
+};
+61285D213FF743F8AD5F1E93 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CODE_SIGN_STYLE = Automatic;
+};
+name = Release;
+};
+3320336968064930AAD2DD11 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CURRENT_PROJECT_VERSION = 1;
+GENERATE_INFOPLIST_FILE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+MARKETING_VERSION = 1.0;
+CODE_SIGN_ENTITLEMENTS = PropertyAgent.entitlements;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.PropertyAgent;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+DBEF7CF84A0D4192843795C1 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CURRENT_PROJECT_VERSION = 1;
+GENERATE_INFOPLIST_FILE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+MARKETING_VERSION = 1.0;
+CODE_SIGN_ENTITLEMENTS = PropertyAgent.entitlements;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.PropertyAgent;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_OPTIMIZATION_LEVEL = -O;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+B83AA61AB37E40F1B23BFD39 /* Build configuration list for PBXProject "PropertyAgent" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (5C7CE7D78DE845F2B14FDC97 /* Debug */
+,61285D213FF743F8AD5F1E93 /* Release */
+,);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+D251734B073A4054893F5FF9 /* Build configuration list for PBXNativeTarget "PropertyAgent" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (3320336968064930AAD2DD11 /* Debug */
+,DBEF7CF84A0D4192843795C1 /* Release */
+,);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+};
+rootObject = 4B4079C027A045969E0D2D91 /* Project object */;
+}
