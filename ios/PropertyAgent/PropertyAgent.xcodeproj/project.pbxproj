@@ -19,6 +19,7 @@ FC2F07AF05D3418D9E3CD51E /* PropertyAgentApp.swift */ = {isa = PBXFileReference;
 D564A7F45B7940FFB2D68A67 /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ChatModels.swift; sourceTree = "<group>"; };
 07A5EEB3BE35459E8BEA9A91 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/APIClient.swift; sourceTree = "<group>"; };
 78A3B848012741CB95004FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+44B76DC7C85A4A2BAD3CF9F8 /* PropertyAgent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PropertyAgent.entitlements; sourceTree = "<group>"; };
 30336780BC7740DEB75C0426 /* PropertyAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -31,6 +32,7 @@ FC2F07AF05D3418D9E3CD51E /* PropertyAgentApp.swift */,
 D564A7F45B7940FFB2D68A67 /* ChatModels.swift */,
 07A5EEB3BE35459E8BEA9A91 /* APIClient.swift */,
 78A3B848012741CB95004FF3 /* Assets.xcassets */,
+44B76DC7C85A4A2BAD3CF9F8 /* PropertyAgent.entitlements */,
 );
 path = PropertyAgent;
 sourceTree = "<group>";
@@ -147,6 +149,7 @@ CURRENT_PROJECT_VERSION = 1;
 GENERATE_INFOPLIST_FILE = YES;
 IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 MARKETING_VERSION = 1.0;
+CODE_SIGN_ENTITLEMENTS = PropertyAgent.entitlements;
 PRODUCT_BUNDLE_IDENTIFIER = com.example.PropertyAgent;
 PRODUCT_NAME = "$(TARGET_NAME)";
 SWIFT_VERSION = 5.0;
@@ -161,6 +164,7 @@ CURRENT_PROJECT_VERSION = 1;
 GENERATE_INFOPLIST_FILE = YES;
 IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 MARKETING_VERSION = 1.0;
+CODE_SIGN_ENTITLEMENTS = PropertyAgent.entitlements;
 PRODUCT_BUNDLE_IDENTIFIER = com.example.PropertyAgent;
 PRODUCT_NAME = "$(TARGET_NAME)";
 SWIFT_OPTIMIZATION_LEVEL = -O;
